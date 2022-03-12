@@ -1,0 +1,6 @@
+<!ELEMENT biblio (livre+)>
+<!ELEMENT livre (titre, auteur ,nb_tomes)>
+<!ATTLIST livre lang (eng | fr) #REQUIRED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT nb_tomes (#PCDATA)>

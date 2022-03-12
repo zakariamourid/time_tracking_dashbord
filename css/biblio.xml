@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE biblio SYSTEM "biblio.dtd">
+<biblio>
+<livre lang="eng">
+<titre>Les Misérables</titre>
+<auteur>Victor Hugo</auteur>
+<nb_tomes>3</nb_tomes>
+</livre>
+<livre lang="eng">
+<titre>Les Misérables</titre>
+<auteur>Victor Hugo</auteur>
+<nb_tomes>3</nb_tomes>
+</livre>
+</biblio>
