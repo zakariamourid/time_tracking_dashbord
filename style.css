@@ -27,13 +27,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 .container {
   max-width: 1040px;
-  width: 70%;
-  margin: 2rem auto;
-  /* height: 700px; */
+  margin-top: 10rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -43,10 +41,27 @@ body {
 
   /* background-color: var(--blue); */
 }
+
 @media only screen and (max-width: 1200px) {
   /*Tablets [601px -> 1200px]*/
   .container {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+  .card {
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Mobile [0px -> 600px]*/
+  .container {
     width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
+  .card {
+    margin-bottom: 1rem;
   }
 }
 .profile {
@@ -92,7 +107,8 @@ body {
 }
 
 .profile .card__content .dates {
-  margin-top: 2rem;
+  padding: 1rem;
+  
   list-style: none;
 }
 .date {
