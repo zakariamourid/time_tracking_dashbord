@@ -2,114 +2,155 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- import css -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
+    <link href="style.css" rel="stylesheet" />
+
     <title>Document</title>
   </head>
   <body>
-    <div class="grid">
-      <div class="box box1">
-        <div class="user-details">
-          <div class="img-circle"></div>
-          <div class="user-name">
-            <span>Report for </span>Jeremy <br />
-            Robsson
+    <div class="container">
+      <div class="profile">
+        <div class="profile__top">
+          <div class="ellipse">
+            <img src="images/image-jeremy.png" alt="" />
+          </div>
+          <div class="name">
+            report for<span class="large"
+              ><br />
+              Jeremy Robson</span
+            >
           </div>
         </div>
-        <div class="periods">
-          <ul>
-            <li>Daily</li>
-            <li>weekly</li>
-            <li>monthly</li>
+        <div class="card__content">
+          <ul class="dates">
+            <li class="date">Daily</li>
+            <li class="date">Weekly</li>
+            <li class="date">Monthly</li>
           </ul>
         </div>
       </div>
-      <div class="box work">
-        <div class="box-img">
+      <div class="card">
+        <div class="card__top">
           <img src="images/icon-work.svg" alt="" />
         </div>
-        <div class="content-box">
-          <div class="activity">
-            <div class="activity-title">exercise</div>
-            <div class="more"><span></span></div>
+        <div class="card__content">
+          <div class="card__header">
+            <div class="card-title">work</div>
+            <div class="dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
-          <div class="current">32hrs</div>
-          <div class="previous">Last Week -36hr</div>
+          <div class="time">32hrs</div>
+          <div class="last-week">Last-Week 36hrs</div>
         </div>
       </div>
-      <div class="box play">
-        <div class="box-img">
-          <img src="images/icon-work.svg" alt="" />
+      <div class="card">
+        <div class="card__top">
+          <img src="images/icon-play.svg" alt="" />
         </div>
-        <div class="content-box">
-          <div class="activity">
-            <div class="activity-title">exercise</div>
-            <div class="more"><span></span></div>
+        <div class="card__content">
+          <div class="card__header">
+            <div class="card-title">play</div>
+            <div class="dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
-          <div class="current">32hrs</div>
-          <div class="previous">Last Week -36hr</div>
+          <div class="time">10hrs</div>
+          <div class="last-week">Last-Week 8hrs</div>
         </div>
       </div>
-      <div class="box study">
-        <div class="box-img">
-          <img src="images/icon-work.svg" alt="" />
+      <div class="card">
+        <div class="card__top">
+          <img src="images/icon-study.svg" alt="" />
         </div>
-        <div class="content-box">
-          <div class="activity">
-            <div class="activity-title">exercise</div>
-            <div class="more"><span></span></div>
+        <div class="card__content">
+          <div class="card__header">
+            <div class="card-title">Study</div>
+            <div class="dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
-          <div class="current">32hrs</div>
-          <div class="previous">Last Week -36hr</div>
+          <div class="time">4hrs</div>
+          <div class="last-week">Last-Week 7hrs</div>
         </div>
       </div>
-      <div class="box exercise">
-        <div class="box-img">
-          <img src="images/icon-work.svg" alt="" />
+      <div class="card">
+        <div class="card__top">
+          <img src="images/icon-exercise.svg" alt="" />
         </div>
-        <div class="content-box">
-          <div class="activity">
-            <div class="activity-title">exercise</div>
-            <div class="more"><span></span></div>
+        <div class="card__content">
+          <div class="card__header">
+            <div class="card-title">Exercise</div>
+            <div class="dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
-          <div class="current">32hrs</div>
-          <div class="previous">Last Week -36hr</div>
+          <div class="time">4hrs</div>
+          <div class="last-week">Last-Week 5hrs</div>
         </div>
       </div>
-      <div class="box social">
-        <div class="box-img">
-          <img src="images/icon-work.svg" alt="" />
+      <div class="card">
+        <div class="card__top">
+          <img src="images/icon-social.svg" alt="" />
         </div>
-        <div class="content-box">
-          <div class="activity">
-            <div class="activity-title">exercise</div>
-            <div class="more"><span></span></div>
+        <div class="card__content">
+          <div class="card__header">
+            <div class="card-title">Social</div>
+            <div class="dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
-          <div class="current">32hrs</div>
-          <div class="previous">Last Week -36hr</div>
+          <div class="time">5hrs</div>
+          <div class="last-week">Last-Week 10hrs</div>
         </div>
       </div>
-      <div class="box self-care">
-        <div class="box-img">
-          <img src="images/icon-work.svg" alt="" />
+      <div class="card">
+        <div class="card__top">
+          <img src="images/icon-self-care.svg" alt="" />
         </div>
-        <div class="content-box">
-          <div class="activity">
-            <div class="activity-title">exercise</div>
-            <div class="more"><span></span></div>
+        <div class="card__content">
+          <div class="card__header">
+            <div class="card-title">Self-care</div>
+            <div class="dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
           </div>
-          <div class="current">32hrs</div>
-          <div class="previous">Last Week -36hr</div>
+          <div class="time">2hrs</div>
+          <div class="last-week">Last-Week 2hrs</div>
         </div>
       </div>
     </div>
-    <script src="js/app.js"></script>
   </body>
+  <!-- <script>
+    let ele = document.querySelector(":root");
+    let cs = getComputedStyle(ele);
+    let container = document.querySelector(".container");
+    // add a card to the container
+    let card = document.querySelector(".card");
+    let cardClone = card.cloneNode(true);
+    cardClone.querySelector(".card-title").textContent = "play";
+    cardClone.querySelector(".time").textContent = "10hrs";
+    cardClone.querySelector(".last-week").textContent = "last-week 8hrs";
+    cardClone.querySelector(".card__top img").src = "images/icon-exercise.svg";
+    cardClone.style.backgroundColor = cs.getPropertyValue("--light-red-study");
+    cardClone.querySelector(".card__top img").style.color = "blue";
+    container.appendChild(cardClone);
+  </script> -->
 </html>
